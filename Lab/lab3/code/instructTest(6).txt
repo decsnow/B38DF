@@ -1,0 +1,16 @@
+// example code only
+//For example  Red is the 24 bit machine code  // is the comment delimiter  black is the comment
+319060     //SUB R1-R1 (to make it 0) r1 = counter
+100060    //load register 0 with data 0  D0=0
+308060    //just in case make it 0 R0 (subtract R0-R0)
+// loop1
+120260     //load R2 D2 (D2=12)  (and refresh it when we loop it)
+
+/*
+ You may also put long comment like this
+SUB R1, R1  // zero R1
+LD R0, D0    // load R0, with D0
+SUB R0, R0  //zero R0
+// begin loop 1
+LD R2, D2   // load loop terminator
+*/
